@@ -1,0 +1,76 @@
+# Translation of Plugins - Radio Buttons for Taxonomies - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Radio Buttons for Taxonomies - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-17 15:06:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Radio Buttons for Taxonomies - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.kathyisawesome.com"
+msgstr "http://www.kathyisawesome.com"
+
+#. Author of the plugin/theme
+msgid "Kathy Darling"
+msgstr "Kathy Darling"
+
+#. Description of the plugin/theme
+msgid "Use radio buttons for any taxonomy so users can only select 1 term at a time"
+msgstr "Käytä valintanappeja mihin tahansa taksonomiaan, jotta käyttäjät voivat valita vain yhden termin kerrallaan"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.kathyisawesome.com/441/radio-buttons-for-taxonomies"
+msgstr "http://www.kathyisawesome.com/441/radio-buttons-for-taxonomies"
+
+#: radio-buttons-for-taxonomies.php:266
+msgid "Settings"
+msgstr "Asetukset"
+
+#: radio-buttons-for-taxonomies.php:202
+msgid "Radio Buttons for Taxonomies Options Page"
+msgstr "Taksonomioiden valintanappien asetukset"
+
+#: radio-buttons-for-taxonomies.php:90 radio-buttons-for-taxonomies.php:99
+msgid "Cheatin&#8217; huh?"
+msgstr "Huijaatko..?"
+
+#: inc/plugin-options.php:62
+msgid "Save Changes"
+msgstr "Tallenna valinnat"
+
+#: inc/plugin-options.php:55
+msgid "Completely remove options on plugin removal"
+msgstr "Poista nämä asetukset kun poistat tämän lisäosan"
+
+#: inc/plugin-options.php:48
+msgid "Options"
+msgstr "Valinnat"
+
+#: inc/plugin-options.php:18
+msgid "Select taxonomies to convert to radio buttons"
+msgstr "Valitse luokittelut, jotka muutetaan valintanapeiksi"
+
+#. #-#-#-#-#  tmp-radio-buttons-for-taxonomies.pot (Radio Buttons for
+#. Taxonomies 1.7.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/plugin-options.php:10 radio-buttons-for-taxonomies.php:202
+msgid "Radio Buttons for Taxonomies"
+msgstr "Taksonomioiden valintanapit"
+
+#: inc/class.WordPress_Radio_Taxonomy.php:261
+msgid "No %s"
+msgstr "Ei %s"
+
+#. translators: %s: add new taxonomy label
+#: inc/class.WordPress_Radio_Taxonomy.php:175
+msgid "+ %s"
+msgstr "+ %s"
+
+#: inc/class.WordPress_Radio_Taxonomy.php:133
+msgid "Most Used"
+msgstr "Eniten käytetty"

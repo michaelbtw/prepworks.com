@@ -1,0 +1,477 @@
+# Translation of Plugins - Email Log - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Email Log - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-28 00:27:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Email Log - Stable (latest release)\n"
+
+#: include/Addon/License/Licenser.php:159
+msgid "Install it"
+msgstr "Installer den"
+
+#: include/Addon/License/Licenser.php:155
+msgid "Additional fields are available through More Fields add-on. "
+msgstr "Ytterligere felter er tilgjengelig gjennom \"Flere felter\"-tillegget.&nbsp;"
+
+#: include/Addon/Addon.php:168
+msgctxt "Download add-on"
+msgid "Activate License to Download"
+msgstr "Aktiver lisens for å laste ned"
+
+#: include/Core/Request/LogListAction.php:79
+msgid "Preview Content as HTML"
+msgstr "Forhåndsvis innholdet som HTML"
+
+#: include/Core/Request/LogListAction.php:78
+msgid "Raw Email Content"
+msgstr "Rått e-postinnhold"
+
+#: include/Core/UI/Component/DashboardWidget.php:49
+msgid "<a href=\"%s\">Addons</a>"
+msgstr "<a href=\"%s\">Tillegg</a>"
+
+#: include/Core/UI/Component/DashboardWidget.php:48
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Innstillinger</a>"
+
+#: include/Core/UI/Component/DashboardWidget.php:47
+msgid "<a href=\"%s\">Email Logs</a>"
+msgstr "<a href=\"%s\">E-postlogger</a>"
+
+#: include/Core/UI/Component/DashboardWidget.php:43
+msgid "Total number of emails logged"
+msgstr "Totalt antall e-poster logget"
+
+#: include/Core/UI/Component/DashboardWidget.php:29
+msgid "Email Logs Summary"
+msgstr "Sammendrag av e-postlogger"
+
+#: include/Core/UI/Setting/CoreSetting.php:113
+msgid "<strong>Note:</strong> You can also export the Email Logs using our <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">Export Logs</a> add-on."
+msgstr "<strong>OBS:</strong> Du kan også eksportere e-postloggene ved å bruke vårt tillegg <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">Eksporter logger</a>."
+
+#: include/Core/UI/Setting/CoreSetting.php:108
+msgid "Check this box if you would like to completely remove all of its data when the plugin is deleted."
+msgstr "Kryss av her om du ønsker å fjerne alle data fullstendig når utvidelsen slettes"
+
+#: include/Core/UI/Setting/CoreSetting.php:73
+msgid "Administrator role always has access and cannot be disabled."
+msgstr "Rollen Administrator har alltid adgang og kan ikke deaktiveres."
+
+#: include/Core/UI/Setting/CoreSetting.php:72
+msgid "<strong>Note:</strong> Users with the above User Roles can view Email Logs."
+msgstr "<strong>Varsel:</strong> Brukere med rollene ovenfor kan se e-postlogger."
+
+#: include/Core/UI/Setting/CoreSetting.php:58
+msgid "Administrator"
+msgstr "Administrator"
+
+#: include/Core/UI/Setting/CoreSetting.php:19
+msgid "Remove Data on Uninstall?"
+msgstr "Slett data ved avinstallering?"
+
+#: include/Core/UI/Setting/CoreSetting.php:18
+msgid "Allowed User Roles"
+msgstr "Tillatte bruker-roller"
+
+#: include/Core/UI/Setting/CoreSetting.php:14
+msgid "Core Email Log Settings"
+msgstr "Sentrale innstillinger for e-postlogg"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpemaillog.com"
+msgstr "https://wpemaillog.com"
+
+#: include/libraries/EDD_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr "Feil"
+
+#: include/libraries/EDD_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr "Du har ikke tillatelse til å installere oppdateringer av utvidelser"
+
+#: include/libraries/EDD_SL_Plugin_Updater.php:209
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Det er en ny versjon av%1$s tilgjengelig. %2$sVis detaljer for versjon %4$s%3$s eller %5$soppdater nå%6$s."
+
+#: include/libraries/EDD_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Det er en ny versjon av %1$s tilgjengelig. %2$sVis %3$sdetaljer for versjon %4$s."
+
+#: include/Core/UI/Page/SettingsPage.php:119
+msgid "Save"
+msgstr "Lagre"
+
+#: include/Core/UI/Page/SettingsPage.php:111
+msgid "Email Log Settings"
+msgstr "Innstillinger for e-postlogg"
+
+#: include/Core/UI/Page/SettingsPage.php:94
+#: include/Core/UI/Page/SettingsPage.php:95
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: include/Core/UI/Page/BasePage.php:77
+msgid "Support"
+msgstr "Brukerstøtte"
+
+#: include/Core/UI/Page/BasePage.php:76
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: include/Core/UI/Page/BasePage.php:60
+msgid "You can perform advanced actions like re-sending email, automatically forwarding emails or export logs with our <a href=\"%s\">premium plugins</a>."
+msgstr "Du kan utføre avanserte handlinger, som re-sending av e-post, automatisk videresende e-poster eller eksportere logger med våre <a href=\"%s\">premium-utvidelser</a>."
+
+#: include/Core/UI/Page/BasePage.php:54
+msgid "Check the <a href=\"%s\">documentation about the View Logs screen</a> for more details."
+msgstr "Se <a href=\"%s\">dokumentasjon for vis logger-skjermen</a> for flere detaljer."
+
+#: include/Core/UI/Page/BasePage.php:52
+msgid "You can view the logged emails from the View Logs screen. "
+msgstr "Du kan se de loggede e-postene fra Vis logger-skjermen."
+
+#: include/Core/UI/Page/BasePage.php:49
+msgid "Email Log is a WordPress plugin that allows you to easily log and view all emails sent from WordPress."
+msgstr "E-postlogger er en WordPress-utvidelse som enkelt lar deg logge og vise alle e-poster sendt fra din WordPress."
+
+#: include/Core/UI/Page/AddonListPage.php:45
+msgid "If your license includes the add-ons below, you will be able to install them from here with one-click."
+msgstr "Hvis din lisens inkluderer tilleggene nedenfor vil du kunne installere dem herfra med bare ett klikk."
+
+#: include/Core/UI/Page/AddonListPage.php:44
+msgid "These add-ons provide additional functionality to Email Log plugin and are available for purchase."
+msgstr "Disse tilleggene tilbyr ytterligere funksjonalitet til utvidelsen E-postlogg og er tilgjengelige for kjøp."
+
+#: include/Core/UI/Page/AddonListPage.php:40
+msgid "Email Log Add-ons"
+msgstr "Tillegg for E-postlogg"
+
+#: include/Core/UI/Page/AddonListPage.php:23
+#: include/Core/UI/Page/AddonListPage.php:24
+#: include/Core/UI/Page/BasePage.php:78
+msgid "Add-ons"
+msgstr "Tillegg"
+
+#: include/Core/UI/ListTable/LogListTable.php:300
+msgid "Search by term"
+msgstr "Søk med nøkkelord"
+
+#: include/Core/UI/ListTable/LogListTable.php:299
+msgid "Search by date"
+msgstr "Søk på dato"
+
+#: include/Core/UI/Component/AdminUIEnhancer.php:83
+#: include/Core/UI/Page/LogListPage.php:68
+#: include/Core/UI/Page/LogListPage.php:69
+msgid "View Logs"
+msgstr "Vis logger"
+
+#: include/Core/Request/LogListAction.php:92
+msgid "Close"
+msgstr "Lukk"
+
+#: include/Addon/License/Licenser.php:268
+msgid "Your license for %s has been deactivated. You will not receive automatic updates."
+msgstr "Din lisens for %s har blitt deaktivert. Du vil ikke motta automatiske oppdateringer."
+
+#: include/Addon/License/Licenser.php:241
+msgid "Your license for %s has been activated. You will receive automatic updates and access to email support."
+msgstr "Din lisens for %s er aktivert. Du vil motta automatiske oppdateringer og har tilgang til brukerstøtte via e-post."
+
+#: include/Addon/License/Licenser.php:198
+msgid "Your license has been deactivated. You will not receive automatic updates."
+msgstr "Din lisens er deaktivert. Du vil ikke motta automatiske oppdateringer."
+
+#: include/Addon/License/Licenser.php:182
+msgid "Your license has been activated. You can now install add-ons, will receive automatic updates and access to email support."
+msgstr "Din lisens er aktivert. Du kan nå installere tillegg, vil motta automatiske oppdateringer og har tilgang til brukerstøtte via e-post."
+
+#: include/Addon/License/Licenser.php:131
+#: include/Addon/License/Licenser.php:132
+msgid "Email Log Bundle License Key"
+msgstr "Lisensnøkkel for E-postlogg-pakken"
+
+#: include/Addon/License/Licenser.php:122
+msgid "Enter your license key to activate add-ons. If you don't have a license, then you can <a href='%s' target='_blank'>buy it</a>"
+msgstr "Legg in din lisensnøkkel for å aktivere tillegg. Om du ikke har en lisens kan du <a href='%s' target='_blank'>kjøpe den</a>"
+
+#: include/Addon/License/BaseLicense.php:199
+msgid "An error occurred, please try again"
+msgstr "En feil oppsto. Vennligst forsøk igjen"
+
+#: include/Addon/License/BaseLicense.php:151
+#: include/Addon/License/BaseLicense.php:175
+msgid "An error occurred, please try again."
+msgstr "En feil oppsto. Vennligst forsøk igjen."
+
+#: include/Addon/License/BaseLicense.php:147
+msgid "Your license key has reached its activation limit."
+msgstr "Din lisensnøkkel har nådd grensen for aktiveringer."
+
+#: include/Addon/License/BaseLicense.php:143
+msgid "Your license key is not valid for %s."
+msgstr "Din lisensnøkkel er ikke gyldig for %s."
+
+#: include/Addon/License/BaseLicense.php:139
+msgid "Your license is not active for this URL."
+msgstr "Din lisensnøkkel er ikke gyldig for denne URL:"
+
+#: include/Addon/License/BaseLicense.php:134
+msgid "Your license key is invalid."
+msgstr "Din lisensnøkkel er ugyldig."
+
+#: include/Addon/License/BaseLicense.php:130
+msgid "Your license key has been disabled."
+msgstr "Din lisensnøkkel er deaktivert."
+
+#: include/Addon/License/BaseLicense.php:124
+msgid "Your license key expired on %s."
+msgstr "Din lisensnøkkel utløpte den %s."
+
+#: include/Addon/DependencyEnforcer.php:54
+msgid "Please get the latest version of these add-ons from add-on store."
+msgstr "Vennligst skaff siste versjon av disse tilleggene fra tillegsbutikken,"
+
+#: include/Addon/DependencyEnforcer.php:46
+msgid "The following add-ons are not compatible with the installed version of Email Log and have been deactivated."
+msgstr "De følgende tilleggene er ikke kompatible med den installerte versjonen av E-postlogg og har blitt deaktivert."
+
+#: include/Addon/AddonList.php:177
+msgid "We are not able to retrieve the add-on list now. Please visit the <a href=\"%s\">add-on page</a> to view the add-ons."
+msgstr "Vi klarer ikke å hente versikten over tillegg nå. Vennligst besøk  <a href=\"%s\">siden for tillegg</a> for å se tilleggene."
+
+#: include/Addon/Addon.php:211
+msgid "%s Add-on License Key"
+msgstr "%s Tillegg lisensnøkkel"
+
+#: include/Addon/Addon.php:210
+msgid "Email Log License Key"
+msgstr "Lisensnøkkel for E-postlogg"
+
+#: include/Addon/Addon.php:205
+msgid "Individual add-on license"
+msgstr "Individuell lisens for tillegg"
+
+#: include/Addon/Addon.php:200 include/Addon/License/Licenser.php:113
+msgid "Your license expires on %s"
+msgstr "Din lisens utløper dedn %s"
+
+#: include/Addon/Addon.php:194 include/Addon/License/Licenser.php:110
+msgid "Deactivate"
+msgstr "Deativer"
+
+#: include/Addon/Addon.php:186 include/Addon/License/Licenser.php:104
+msgid "Activate"
+msgstr "Aktiver"
+
+#: include/Addon/Addon.php:176
+msgid "You need an active license to use the add-on"
+msgstr "Du trenger en aktiv lisens for å bruke tillegget"
+
+#: include/Addon/Addon.php:171
+msgctxt "Download and activate addon"
+msgid "Activate License to Use"
+msgstr "Aktiver lisens å bruke"
+
+#: include/Addon/Addon.php:143
+msgctxt "Download to your computer"
+msgid "Download"
+msgstr "Last ned"
+
+#: include/Addon/Addon.php:135
+msgctxt "Enable addon so it may be used"
+msgid "Activate"
+msgstr "Aktiver"
+
+#: include/Addon/Addon.php:133
+msgctxt "Installed and activated on website"
+msgid "Activated"
+msgstr "Aktivert"
+
+#: include/Addon/Addon.php:130
+msgctxt "Installed on website but not activated"
+msgid "Installed"
+msgstr "Installert"
+
+#: include/Addon/API/EDDAPI.php:122
+msgid "Unable to parse the response Email Log store response. Please try again after sometime. If the problem persists contact support."
+msgstr "Kunne ikke forstå svaret fra lageret til E-postlogg. Vennligst prøv igjen etter en tid. Om problemet vedvarer vennligst kontakt brukerstøtte."
+
+#: include/Addon/API/EDDAPI.php:115
+msgid "Unknown error occurred while trying to contact Email Log store. Please try again after sometime. If the problem persists contact support."
+msgstr "Ukjent feil oppsto ved forsøk på å kontakte nettbutikken for  E-postlogg. Vennligst prøv igjen etter en tid. Om problemet vedvarer, kontakt brukerstøtte."
+
+#: email-log.php:49
+msgid "Email Log requires at least PHP 5.3 to function properly. Please upgrade PHP or use <a href=\"%s\">v1.9.1 of Email Log</a>."
+msgstr "E-postlogg krever minst PHP 5.3 for å fungere skikkelig. Vennligst oppgrader PHP eller bruk <a href=\"%s\">versjon 1.9.1 av E-postlogg</a>."
+
+#. Author URI of the plugin/theme
+msgid "http://sudarmuthu.com/"
+msgstr "https://sudarmuthu.com/"
+
+#. Author of the plugin/theme
+msgid "Sudar"
+msgstr "Sudar"
+
+#. Description of the plugin/theme
+msgid "Logs every email sent through WordPress"
+msgstr "Loger alle e-poster sendt gjennom WordPress"
+
+#: include/Core/UI/ListTable/LogListTable.php:272
+#: include/class-email-log-list-table.php:348
+msgid "Your email log is empty"
+msgstr "Din e-postlogg er tom"
+
+#: include/Core/UI/ListTable/LogListTable.php:239
+#: include/class-email-log-list-table.php:239
+msgid "Delete All Logs"
+msgstr "Slett alle logger"
+
+#: include/Core/UI/ListTable/LogListTable.php:166
+#: include/Core/UI/ListTable/LogListTable.php:238
+#: include/class-email-log-list-table.php:169
+#: include/class-email-log-list-table.php:238
+msgid "Delete"
+msgstr "Slett"
+
+#: include/Core/UI/ListTable/LogListTable.php:152
+#: include/class-email-log-list-table.php:155
+msgid "View Content"
+msgstr "Vis innhold"
+
+#: include/Core/UI/ListTable/LogListTable.php:151
+#: include/class-email-log-list-table.php:154
+msgid "Email Content"
+msgstr "Innhold av e-post"
+
+#: include/Core/UI/ListTable/LogListTable.php:133
+#: include/class-email-log-list-table.php:135
+msgid "%s @ %s"
+msgstr "%s \\k\\l %s"
+
+#: include/Core/Request/LogListAction.php:58
+#: include/Core/UI/ListTable/LogListTable.php:71
+#: include/class-email-log-list-table.php:91
+msgid "Subject"
+msgstr "Emne"
+
+#: include/Core/Request/LogListAction.php:54
+#: include/Core/UI/ListTable/LogListTable.php:70
+#: include/class-email-log-list-table.php:90
+msgid "To"
+msgstr "Til"
+
+#: include/Core/Request/LogListAction.php:50
+#: include/Core/UI/ListTable/LogListTable.php:69
+#: include/class-email-log-list-table.php:89
+msgid "Sent at"
+msgstr "Sendt"
+
+#: include/class-email-log-list-table.php:70
+msgid "This addon allows you to send a copy of all emails send from WordPress to another email address"
+msgstr "Dette tillegget lar deg sende en kopi av alle e-poster sendt fra WordPress til en annen e-postadresse."
+
+#: include/class-email-log-list-table.php:69
+msgid "Email Log - Forward Email"
+msgstr "E-postlogg - Vidersend e-post"
+
+#: include/class-email-log-list-table.php:63
+msgid "Adds more fields (From, CC, BCC, Reply To, Attachment) to the logs page."
+msgstr "Legg til flere felter (Fra, Kopi, Blindkopi, Svar til, Vedlegg) på logg-siden."
+
+#: include/class-email-log-list-table.php:62
+msgid "Email Log - More fields"
+msgstr "E-postlogg - Flere felter"
+
+#: include/class-email-log-list-table.php:58
+#: include/class-email-log-list-table.php:65
+#: include/class-email-log-list-table.php:72
+msgid "Buy now"
+msgstr "&nbsp;Kjøp nå"
+
+#: include/class-email-log-list-table.php:57
+#: include/class-email-log-list-table.php:64
+#: include/class-email-log-list-table.php:71
+msgid "More Info"
+msgstr "Mer informasjon"
+
+#: include/class-email-log-list-table.php:56
+msgid "Adds the ability to resend email from logs."
+msgstr "Legger til muligheten til å sende e-poster på nytt fra loggen."
+
+#: include/class-email-log-list-table.php:55
+msgid "Email Log - Resend Email"
+msgstr "E-postlogg - Send e-post på nytt"
+
+#: include/class-email-log-list-table.php:49
+msgid "The following are the list of pro addons that are currently available for purchase."
+msgstr "De følgende er en oversikt over alle pro-tillegg som for tiden er tilgjengelige for kjøp."
+
+#: include/Addon/License/Licenser.php:163
+#: include/class-email-log-list-table.php:38
+msgid "Buy Now"
+msgstr "Kjøp nå"
+
+#: include/class-email-log-list-table.php:36
+msgid "More fields are available in Pro addon. "
+msgstr "Flere felter er tilgjengelig i Pro-tillegg,"
+
+#: include/Core/UI/Component/AdminUIEnhancer.php:106
+msgid "by"
+msgstr "av"
+
+#: include/Core/UI/Component/AdminUIEnhancer.php:106
+msgid "Version"
+msgstr "Versjon"
+
+#: include/Core/UI/Component/AdminUIEnhancer.php:106
+msgid "plugin"
+msgstr "utvidelse"
+
+#: include/Core/UI/Page/LogListPage.php:130
+msgid "Entries per page"
+msgstr "Oppføringer per side"
+
+#: include/Core/UI/Page/BasePage.php:75
+msgid "More information"
+msgstr "Mer informasjon"
+
+#: include/Core/UI/Page/BasePage.php:67
+msgid "About Plugin"
+msgstr "Om utvidelsen"
+
+#: include/Core/UI/Page/LogListPage.php:105
+msgid "Search Logs"
+msgstr "Søk i loggen"
+
+#: include/Core/Request/LogListAction.php:164
+msgid "There was some problem in deleting the email logs"
+msgstr "Det oppsto et problem med å slette eppst-loggene"
+
+#: include/Core/Request/LogListAction.php:168
+msgid "1 email log deleted."
+msgid_plural "%s email logs deleted"
+msgstr[0] "1 oppføring slettet."
+msgstr[1] "%s oppføringer slettet."
+
+#: include/Core/UI/Page/LogListPage.php:100
+msgid "Email Logs"
+msgstr "E-postlogger"
+
+#. #-#-#-#-#  email-log-code.pot (Email Log 2.2.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: include/Core/UI/Page/LogListPage.php:57
+#: include/Core/UI/Page/LogListPage.php:58
+msgid "Email Log"
+msgstr "E-poster"
+
+#: include/Core/UI/Component/AdminUIEnhancer.php:69
+msgid "Buy Addons"
+msgstr "Kjøp tillegg"

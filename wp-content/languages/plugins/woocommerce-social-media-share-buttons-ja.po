@@ -1,0 +1,143 @@
+# Translation of Plugins - Woocommerce Social Media Share Buttons - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Woocommerce Social Media Share Buttons - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-21 05:38:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Woocommerce Social Media Share Buttons - Development (trunk)\n"
+
+#: index.php:566
+msgid "Change the default email share content"
+msgstr "デフォルトのメール共有コンテンツを変更する"
+
+#: index.php:562
+msgid "Email share content"
+msgstr "メールの共有コンテンツ"
+
+#: index.php:500
+msgid "Social Media Share Buttons"
+msgstr "Social Media Share Buttons"
+
+#: index.php:497
+msgid "You can override the button format setting by uploading a custom button image below."
+msgstr "下のカスタムボタン画像をアップロードすることで、ボタンのフォーマット設定を上書きすることができます。"
+
+#: index.php:484
+msgid "Share Button Format"
+msgstr "共有ボタンのフォーマット"
+
+#. Author of the plugin/theme
+msgid "Toastie Studio"
+msgstr "Toastie Studio"
+
+#. Description of the plugin/theme
+msgid "The Woocommerce Social Media Share Buttons plugin allows visitors to your woocommerce shop to easily share your products on popular social media platforms."
+msgstr "Woocommerce Social Media Share Buttons は人気のあるソーシャルメディアプラットフォームで、プラグインを使用すると WooCommerce ショップの訪問者が簡単に商品を共有できます。"
+
+#. #-#-#-#-#  tmp-woocommerce-social-media-share-buttons.pot (WooCommerce
+#. Social Media Share Buttons 1.3.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-woocommerce-social-media-share-buttons.pot (WooCommerce
+#. Social Media Share Buttons 1.3.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.toastiestudio.com"
+msgstr "http://www.toastiestudio.com"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Social Media Share Buttons"
+msgstr "WooCommerce Social Media Share Buttons"
+
+#: index.php:573
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: index.php:549
+msgid "Automatically add open graph meta data to site header. "
+msgstr "open graph のメタデータをサイトのヘッダーに自動的に追加します。"
+
+#: index.php:545
+msgid "Open Graph Settings"
+msgstr "Open Graph 設定"
+
+#: index.php:495
+msgid "Note: Some buttons do not show the share count until the url has been shared atleast once. Email does not show the share count at all."
+msgstr "一部のボタンでは、URLが少なくとも1回共有されるまで共有数は表示されません。メールにはシェア数は表示されません。"
+
+#: index.php:492
+msgid "Box with counter"
+msgstr "カウンター付きボックス"
+
+#: index.php:490
+msgid "Button with counter"
+msgstr "カウンター付きボタン"
+
+#: index.php:488
+msgid "Button"
+msgstr "ボタン"
+
+#: index.php:557
+msgid "Add a title above the share buttons (title is set to heading 3 style format, class \"wsmsb_title\")."
+msgstr "共有ボタンの上にタイトルを追加します。（タイトルは見出し3様式、クラス \"wsmsb_title\"に設定されています）"
+
+#: index.php:553
+msgid "Share button title text"
+msgstr "シェアボタンのタイトルテキスト"
+
+#: index.php:537
+msgid "Email"
+msgstr "メール"
+
+#: index.php:533
+msgid "VKontakte"
+msgstr "VKontakte"
+
+#: index.php:529
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: index.php:525
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: index.php:521
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: index.php:517
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: index.php:513
+msgid "Google Plus"
+msgstr "Google+"
+
+#: index.php:509
+msgid "Twitter"
+msgstr "Twitter"
+
+#: index.php:505
+msgid "Facebook"
+msgstr "Facebook"
+
+#: index.php:479
+msgid ""
+"<p>By default the plugin adds social media share buttons to your woocommerce store products page (just below the 'add to cart' button). With the addition of a shortcode you can use it to add social media share buttons in posts, pages, products, events, widget etc.</p>\n"
+"        <p>Use shortcode to add social media share buttons to posts, pages, products, events etc. [woocommerce_social_media_share_buttons]</p>\n"
+"        <p>Add shortcode to your WordPress theme, or php widget. &lt;?php echo do_shortcode( '[woocommerce_social_media_share_buttons]' ); ?></p>"
+msgstr ""
+"<p>デフォルトでは、プラグインはソーシャルメディア共有ボタンをあなたの WooCommerce ストアの商品ページに追加します（ 'カートに追加'ボタンのすぐ下に）。ショートコードを追加すると、投稿、ページ、製品、イベント、ウィジェットなどにソーシャルメディア共有ボタンを追加することができます。</p>\n"
+"<p>ショートコードを使用して、記事、ページ、製品、イベントなどにソーシャルメディア共有ボタンを追加します。[woocommerce_social_media_share_buttons]</p>\n"
+"<p>WordPressテーマ、またはPHPウィジェットにショートコードを追加してください。 &lt;?php echo do_shortcode( '[woocommerce_social_media_share_buttons]' ); ?></p>"
+
+#: index.php:477
+msgid "Your settings have been saved."
+msgstr "設定が保存されました。"
+
+#: index.php:474
+msgid "WooCoomerce Social Media Share Buttons - Settings"
+msgstr "WooCoomerce Social Media Share Buttons - 設定"

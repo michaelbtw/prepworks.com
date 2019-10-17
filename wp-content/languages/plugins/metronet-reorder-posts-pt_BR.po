@@ -1,0 +1,133 @@
+# Translation of Plugins - Reorder Posts - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Reorder Posts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-03 19:32:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Reorder Posts - Stable (latest release)\n"
+
+#: class-reorder.php:396
+msgid "Items per Page"
+msgstr "Itens por página"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/ronalfy/reorder-posts"
+msgstr "https://github.com/ronalfy/reorder-posts"
+
+#. Author of the plugin/theme
+msgid "Ryan Hellyer, Ronald Huereca, Scott Basgaard"
+msgstr "Ryan Hellyer, Ronald Huereca, Scott Basgaard"
+
+#. Description of the plugin/theme
+msgid "Easily reorder posts and pages in WordPress"
+msgstr "Reordene facilmente seus posts e páginas no WordPress"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/metronet-reorder-posts/"
+msgstr "https://br.wordpress.org/plugins/metronet-reorder-posts/"
+
+#. Plugin Name of the plugin/theme
+msgid "Reorder Posts"
+msgstr "Reorder Posts"
+
+#: index.php:88
+msgid "Reorder %s"
+msgstr "Reordenar %s"
+
+#: index.php:87
+msgid "Posts"
+msgstr "Posts"
+
+#: class-reorder.php:480
+msgid "There is nothing to sort at this time"
+msgstr "Não há nada para ordenar neste momento"
+
+#: class-reorder.php:430
+msgid "There are over %s posts found.  We do not recommend you sort these posts for performance reasons."
+msgstr "Existem mais de %s posts encontrados.  Não recomendamos que você ordene esses posts por motivos de desempenho."
+
+#: class-reorder.php:343
+msgid "Collapse"
+msgstr "Recolher"
+
+#: class-reorder.php:342
+msgid "Expand"
+msgstr "Expandir"
+
+#: class-reorder.php:169 class-reorder.php:173 index.php:97
+msgid "Reorder"
+msgstr "Reordenar"
+
+#: class-reorder-admin.php:257
+msgid "Select the menu order for the post types."
+msgstr "Selecione a ordem do menu para os tipos de post."
+
+#: class-reorder-admin.php:257
+msgid "Select the menu order arguments."
+msgstr "Selecione os argumentos de ordenação do menu."
+
+#: class-reorder-admin.php:255
+msgid "Select the post types you would like this plugin enabled for."
+msgstr "Selecione os tipos de post para os quais você gostaria de ativar este plugin."
+
+#: class-reorder-admin.php:255
+msgid "Post Types"
+msgstr "Tipos de posts"
+
+#: class-reorder-admin.php:253
+msgctxt "plugin settings heading"
+msgid "Advanced"
+msgstr "Avançado"
+
+#: class-reorder-admin.php:251
+msgctxt "plugin settings heading"
+msgid "Enable Post Types"
+msgstr "Ativar tipos de Post"
+
+#: class-reorder-admin.php:201
+msgctxt "Plugin settings link on the plugins page"
+msgid "Settings"
+msgstr "Configurações"
+
+#: class-reorder-admin.php:185
+msgid "These are advanced options and you should only use these if you know what you are doing.  These can overwrite the menu orders of custom queries (using get_posts or WP_Query), custom post type archives, and even the order your blog posts display."
+msgstr "Estas são opções avançadas e você só deve usar estas se souber o que está fazendo.  Elas podem substituir a ordenação de menu de consultas personalizadas (usando o get_posts ou WP_Query), arquivos de tipos de posts personalizados, e até mesmo a ordem dos posts na exibição do blog."
+
+#: class-reorder-admin.php:135
+msgid "DESC"
+msgstr "DESC"
+
+#: class-reorder-admin.php:134
+msgid "ASC"
+msgstr "ASC"
+
+#: class-reorder-admin.php:132
+msgid "Sort Order:"
+msgstr "Organizar:"
+
+#: class-reorder-admin.php:126
+msgid "Menu Order"
+msgstr "Ordem do menu"
+
+#: class-reorder-admin.php:125
+msgid "None"
+msgstr "Nenhum"
+
+#: class-reorder-admin.php:123
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: class-reorder-admin.php:82
+msgctxt "Plugin Name - Menu Item"
+msgid "Reorder Posts"
+msgstr "Reordenar posts"
+
+#: class-reorder-admin.php:82 class-reorder-admin.php:360
+msgctxt "Plugin Name - Settings Page Title"
+msgid "Reorder Posts"
+msgstr "Reordenar posts"
