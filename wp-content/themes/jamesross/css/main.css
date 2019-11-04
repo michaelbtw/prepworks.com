@@ -228,7 +228,7 @@ header {
 
 @media (min-width: 768px) {
 	.hide-me {
-		display:none;
+		/*display:none;*/
 	}
 
 	body.page-template-template-new-look-internal {
@@ -282,6 +282,9 @@ footer .btn-primary {
 
 .site-title .site-title-heading {
 	margin:0;
+        modified:   wp-content/themes/jamesross/header.php
+        modified:   wp-content/themes/jamesross/header.php
+        modified:   wp-content/themes/jamesross/header.php
 }
 
 #top-stripe {
@@ -472,7 +475,7 @@ footer .btn-primary {
 
 #menu-primary li a, #menu-primary li a:hover {
 	color:#fff;
-	font-size:16px;
+	font-size:15px;
 	text-transform:uppercase;
 	text-decoration:none;
 }

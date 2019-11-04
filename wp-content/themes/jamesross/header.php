@@ -105,6 +105,8 @@ jQuery(function(){
         <script>
         jQuery( document ).ready(function() {
         	jQuery('#menu-item-2359 span').remove();	
+		var phoneNumber = jQuery("ul#menu-secondary-menu li:first a").html();        
+                jQuery("ul#menu-secondary-menu li:first a").html("<i class='fa fa-phone fa-rotate-90' aria-hidden='true' style='position:relative;left:-7px;'></i>" +phoneNumber);
         });					
         </script>
 		

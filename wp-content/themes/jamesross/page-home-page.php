@@ -11,6 +11,16 @@ get_header();
  * determine main column size from actived sidebar
  */
 ?>
+<script>
+jQuery(document).ready(function() {
+    console.log( "ready!" );
+    jQuery("div#whyprepworks h3:first").removeAttr("style");	
+    jQuery("div#whyprepworks h3:first").attr("style", "font-size:28px");
+    jQuery("div#whyprepworks h3:first").css("margin-bottom", "4%");
+    jQuery("div#whyprepworks h3:first").css("margin-top", "3%");
+    jQuery("div#whyprepworks h4").css("line-height", "25px");
+});
+</script>
 
 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -20,7 +30,7 @@ get_header();
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    <!-- <li data-target="#carousel-example-generic" data-slide-to="4"></li> -->
                   </ol>
                 
                   <!-- Wrapper for slides -->
@@ -91,7 +101,7 @@ get_header();
           		
                 	<div class="course-group">
                     <div id="prep-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-test-prep.png" alt="Test Prep"></div>
-                        <p class="cg-title">Test Preparation</p>
+                        <p class="cg-title">PSAT, SAT & ACT</p>
                        <p><?php echo get_field('test_prep_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/test-preparation/" role="button">LEARN MORE</a>
@@ -167,15 +177,15 @@ get_header();
 			<div class="col-md-12">
            		<?php echo get_field('why_prepworks_copy'); ?>
                 
-                <div class="why"><a href="https://prepworks.com/why-prepworks/#tech"><img style="margin-bottom: -10px; " class="alignleft size-full wp-image-274" src="<?php echo get_template_directory_uri(); ?>/img/prepworks-tech-icon.png" alt="icon-graph" width="75" height="74" /></a></div>
-				<div class="why2"><p style="font-size: 20px; margin-top: -3px; font-weight: bold;"><a href="https://prepworks.com/why-prepworks/#tech">Learning Positioning System<sup>&reg;</sup> Technology</a></p></div>
+                <!--<div class="why"><a href="https://prepworks.com/why-prepworks/#tech"><img style="margin-bottom: -10px; " class="alignleft size-full wp-image-274" src="<?php echo get_template_directory_uri(); ?>/img/prepworks-tech-icon.png" alt="icon-graph" width="75" height="74" /></a></div>-->
+		<!--<div class="why2"><p style="font-size: 20px; margin-top: -3px; font-weight: bold;"><a href="https://prepworks.com/why-prepworks/#tech">Learning Positioning System<sup>&reg;</sup> Technology</a></p></div>-->
                 
                 
                
                 
                 
                 <div style="clear:both;"></div>
-                <a class="btn btn-primary btn-lg why-btn" href="<?php echo get_site_url(); ?>/contact-us-2/" role="button">CONTACT US</a>
+                <a class="btn btn-primary btn-lg why-btn" href="<?php echo get_site_url(); ?>/contact-us-2/" role="button" style="margin-top:3%">CONTACT US</a>
                 
                 
            </div>
@@ -183,7 +193,7 @@ get_header();
    </div>         
 </div>
 
-<div id="tutoring">
+<!--<div id="tutoring">
 	<div class="container">
 		<div class="row">
         	<div class="col-md-9" id="thecopy">
@@ -208,7 +218,7 @@ get_header();
             </div>
         </div>
     </div>    
-</div>
+</div>-->
 
 <div class="container">
 	<div class="row">
