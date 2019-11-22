@@ -298,7 +298,7 @@ footer .btn-primary {
 } 
 
 #nav-row {
-	background-color:#234a75; 
+	background-color:#283848; 
 }
 
 #top-stripe form {
@@ -678,8 +678,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #testimonials {
-	/*background: #ffffff url("/img/background-success-stories.jpg") no-repeat center top;*/
-	background-color:#234a75;
+	background: #ffffff url("/img/background-success-stories.jpg") no-repeat center top;
 	background-size:cover;
 	min-height:360px;
 	color:#fff;
@@ -712,12 +711,11 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #footer-info  {
-	/*background: #ffffff url("/img/background-kids-feet.jpg") no-repeat center top;*/
+	background: #ffffff url("/img/background-kids-feet.jpg") no-repeat center top;
 	background-size:cover;
 	min-height:250px;
 	color:#fff;
 	font-size:13px;
-	background-color: #f2f2f2;
 }
 @media (max-width: 1000px) {
 	#footer-info {
@@ -877,7 +875,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 #footer-connect-with-us h2, #footer-right h2{
     font-size: 40px;
     font-weight:bold;
-    color:#283848;
+    color:#32a8bd;
 }
 .social-icons{
     padding-left:0;
@@ -900,7 +898,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 .footer-links li a{
     padding:5px 0 10px;
-    color:#787878;
+    color:#fff;
     font-size:18px;
 }
 .footer-header{
@@ -981,7 +979,6 @@ footer a:hover {color:#fff; text-decoration:underline;}
 
 .why-btn {
 	margin-bottom:20px;
-	background-color: #234a75;
 }
 
 .cg-title {
@@ -991,9 +988,8 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #whyprepworks {
-	/*background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;*/
-        background-color: #ededed;
-	color:#787878;
+	background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;
+	color:#fff;
 	min-height:400px;
 	/*background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;*/
 	background-size:cover;
@@ -1003,10 +999,9 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #tutoring {
-	/*background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;*/
+	background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;
 	/*background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;*/
 	background-size:cover;
-	background-color: #e05504;
 	min-height:185px;
 	color:#fff;
 }
@@ -1030,10 +1025,9 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 .geo-btn {
-    margin: 0 auto;
+	margin: 0 auto;
     display: block;
     width: 212px;
-    background-color: #234a75;	
 }
 
 .why {

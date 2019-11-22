@@ -159,7 +159,8 @@ label {
 	background-image:none;
 	border:none;
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
-	padding: 15px 45px;
+	/*padding: 15px 45px;*/
+	padding: 10px 15px;
 }
 
 .btn-default, .btn-default:hover, .btn-default:active, .btn-default:focus {
@@ -282,7 +283,8 @@ footer .btn-primary {
     background-image: none;
     border: none;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
-    padding: 15px 45px;
+    /*padding: 15px 45px;*/
+      padding : 10px 15px;	
 }
 
 .site-title .site-title-heading {
@@ -298,7 +300,7 @@ footer .btn-primary {
 } 
 
 #nav-row {
-	background-color:#283848; 
+	background-color:#234a75; 
 }
 
 #top-stripe form {
@@ -678,7 +680,8 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #testimonials {
-	background: #ffffff url("/img/background-success-stories.jpg") no-repeat center top;
+	/*background: #ffffff url("/img/background-success-stories.jpg") no-repeat center top;*/
+	background-color:#234a75;
 	background-size:cover;
 	min-height:360px;
 	color:#fff;
@@ -711,11 +714,12 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #footer-info  {
-	background: #ffffff url("/img/background-kids-feet.jpg") no-repeat center top;
+	/*background: #ffffff url("/img/background-kids-feet.jpg") no-repeat center top;*/
 	background-size:cover;
 	min-height:250px;
 	color:#fff;
 	font-size:13px;
+	background-color: #f2f2f2;
 }
 @media (max-width: 1000px) {
 	#footer-info {
@@ -737,7 +741,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 #footer-copyright {
 	font-size:12px;
 	color:#fff;
-	background-color:#283848;
+	background-color:#234a75;
 	min-height:70px;
 }
 
@@ -869,14 +873,22 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 /*** Added By Fulcrum Team 11-11-2019 ***/
+
+#thebutton .geo-btn:hover {
+    background-color: #072648 !important;
+}
+
 #footer-connect-with-us , #footer-right{
-    padding: 25px 135px 20px;
+    padding: 3% 135px 20px;
 }
+
 #footer-connect-with-us h2, #footer-right h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight:bold;
-    color:#32a8bd;
+    color:#283848;
+    margin-bottom: 15px;
 }
+
 .social-icons{
     padding-left:0;
     padding-top: 15px;
@@ -886,8 +898,8 @@ footer a:hover {color:#fff; text-decoration:underline;}
     margin: 10px 15px 10px 0;
     display: inline-flex;
 }
-.social-icons .fa-facebook{
-    color: #fff;
+.social-icons i{
+    color: #283848;
 }
 .social-icons li a i:hover{
     color:#32a8bd;
@@ -898,8 +910,8 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 .footer-links li a{
     padding:5px 0 10px;
-    color:#fff;
-    font-size:18px;
+    color:#787878;
+    font-size:16px;
 }
 .footer-header{
     font-size: 15px;
@@ -910,7 +922,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
     text-align: center;
     font-size: 15px;
     padding: 25px;
-    color:#fff;
+    color:#787878;
 }
 /** Prepworks program page **/
 .more-info-text{
@@ -979,6 +991,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 
 .why-btn {
 	margin-bottom:20px;
+	background-color: #234a75;
 }
 
 .cg-title {
@@ -988,9 +1001,10 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #whyprepworks {
-	background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;
-	color:#fff;
-	min-height:400px;
+	/*background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;*/
+        background-color: #ededed;
+	color:#787878;
+	min-height:370px;
 	/*background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;*/
 	background-size:cover;
 	text-align:center;
@@ -999,9 +1013,10 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #tutoring {
-	background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;
+	/*background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;*/
 	/*background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;*/
 	background-size:cover;
+	background-color: #e05504;
 	min-height:185px;
 	color:#fff;
 }
@@ -1025,9 +1040,10 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 .geo-btn {
-	margin: 0 auto;
+    margin: 0 auto;
     display: block;
-    width: 212px;
+    width: 150px;
+    background-color: #234a75;	
 }
 
 .why {
