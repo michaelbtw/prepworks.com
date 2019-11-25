@@ -696,3 +696,6 @@ function book_time_slot( $entry, $form ) {
 
 }
 //END ISTE BOOKING FORM AREA//
+
+
+

@@ -11,6 +11,18 @@ get_header();
  * determine main column size from actived sidebar
  */
 ?>
+<script>
+jQuery(document).ready(function() {
+    var text = jQuery("div#whyprepworks h3:first strong").html();        
+    jQuery("div#whyprepworks h3:first strong").html("<a href='https://prepworks.com/why-prepworks-2/' style='color:#283848;'>"+text+"</a>");
+    jQuery("div#whyprepworks h3:first").removeAttr("style");	
+    jQuery("div#whyprepworks h3:first").attr("style", "font-size:28px");
+    jQuery("div#whyprepworks h3:first").css("margin-bottom", "4%");
+    jQuery("div#whyprepworks h3:first").css("margin-top", "3%");
+    jQuery("div#whyprepworks h4").css("line-height", "25px");
+});
+</script>
+
 
 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -21,26 +33,28 @@ get_header();
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                  </ol>
-                
+                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                  </ol>                
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
                         <?php $loop = new WP_Query( array( 'post_type' => 'hero-slider', 'order_by' => 'menu_order', 'order' => 'asc' ) ); ?>
                        <?php $x = 0; ?> 
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                            <div class="item <?php if($x == 0) echo "active"; ?>" >
-                            
+                            <div class="item <?php if($x == 0) echo "active"; ?>">
+                                <a href="https://prepworks.com" target="_blank">
                               <?php the_post_thumbnail('full'); ?>
-                              <div class="carousel-caption">
+<!--                              <div class="carousel-caption">
                               	   <p class="hero-title" style="color:<?php echo get_field('text_color'); ?>;<?php if(get_field('text_color') == "#fff") echo "text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.92);";?>"><?php echo get_the_title(); ?></p> 	
                                     <p class="hero-copy" style="color:<?php echo get_field('text_color'); ?>;<?php if(get_field('text_color') == "#fff") echo "text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.92);";?>"><?php echo get_the_content(); ?></p>
                                   <a class="btn btn-primary btn-lg slider-btn" href="<?php echo get_field('learn_more_link'); ?>">Learn More</a>  
-                             </div>
-                             <div class="carousel-caption-mobile">
+                             </div>-->
+<!--                             <div class="carousel-caption-mobile">
                               	   <p class="hero-title" style="color:<?php echo get_field('text_color'); ?>;"><?php echo get_the_title(); ?></p> 	
                                     <p class="hero-copy" style="color:<?php echo get_field('text_color'); ?>;"><?php echo get_the_content(); ?></p>
                                   <a class="btn btn-primary btn-lg slider-btn" href="<?php echo get_field('learn_more_link'); ?>">Learn More</a>  
-                             </div>
+                             </div>-->
+                             </a>
                           </div>
                         <?php $x++; endwhile; wp_reset_query(); ?>
                   </div>
@@ -91,7 +105,7 @@ get_header();
           		
                 	<div class="course-group">
                     <div id="prep-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-test-prep.png" alt="Test Prep"></div>
-                        <p class="cg-title">Test Preparation</p>
+                        <p class="cg-title">PSAT, SAT, & ACT</p>
                        <p><?php echo get_field('test_prep_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/test-preparation/" role="button">LEARN MORE</a>
@@ -167,15 +181,15 @@ get_header();
 			<div class="col-md-12">
            		<?php echo get_field('why_prepworks_copy'); ?>
                 
-                <div class="why"><a href="https://prepworks.com/why-prepworks/#tech"><img style="margin-bottom: -10px; " class="alignleft size-full wp-image-274" src="<?php echo get_template_directory_uri(); ?>/img/prepworks-tech-icon.png" alt="icon-graph" width="75" height="74" /></a></div>
-				<div class="why2"><p style="font-size: 20px; margin-top: -3px; font-weight: bold;"><a href="https://prepworks.com/why-prepworks/#tech">Learning Positioning System<sup>&reg;</sup> Technology</a></p></div>
+                <!--<div class="why"><a href="https://prepworks.com/why-prepworks/#tech"><img style="margin-bottom: -10px; " class="alignleft size-full wp-image-274" src="<?php echo get_template_directory_uri(); ?>/img/prepworks-tech-icon.png" alt="icon-graph" width="75" height="74" /></a></div>-->
+		<!--<div class="why2"><p style="font-size: 20px; margin-top: -3px; font-weight: bold;"><a href="https://prepworks.com/why-prepworks/#tech">Learning Positioning System<sup>&reg;</sup> Technology</a></p></div>-->
                 
                 
                
                 
                 
                 <div style="clear:both;"></div>
-                <a class="btn btn-primary btn-lg why-btn" href="<?php echo get_site_url(); ?>/contact-us-2/" role="button">CONTACT US</a>
+                <a class="btn btn-primary btn-lg why-btn" href="https://calendly.com/lgomezecs/prepworks-demonstration" role="button" style="margin-top:25px;">Schedule a Demo</a>
                 
                 
            </div>

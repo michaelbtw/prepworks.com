@@ -59,8 +59,8 @@ get_header('act-sat');
 				   <div class="row">
 		        	<div class="col-md-12"> 
 			            <ul id="page-tabs" class="page-tabs-why-override">
-							<li><a href="#guarantee" rel="m_PageScroll2id">OUR GUARANTEE</a></li>
-						    <li><a href="#instructors" rel="m_PageScroll2id">OUR INSTRUCTORS</a></li>
+						    <li><a href="#guarantee" rel="m_PageScroll2id">OUR GUARANTEE</a></li>
+						    <!--<li><a href="#instructors" rel="m_PageScroll2id">OUR INSTRUCTORS</a></li>-->
 						    <li><a href="#awards" rel="m_PageScroll2id">OUR AWARDS</a></li>
 						    <li><a href="#tech" rel="m_PageScroll2id">OUR TECH</a></li>
 			    
