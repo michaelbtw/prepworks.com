@@ -678,7 +678,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #testimonials {
-	background: #ffffff url("/img/background-success-stories.jpg") no-repeat center top;
+	background: #ffffff url("http://localhost/prepworks-wp/img/background-success-stories.jpg") no-repeat center top;
 	background-size:cover;
 	min-height:360px;
 	color:#fff;
@@ -711,7 +711,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #footer-info  {
-	background: #ffffff url("/img/background-kids-feet.jpg") no-repeat center top;
+	background: #ffffff url("http://localhost/prepworks-wp/img/background-kids-feet.jpg") no-repeat center top;
 	background-size:cover;
 	min-height:250px;
 	color:#fff;
@@ -988,10 +988,10 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #whyprepworks {
-	background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;
+	background: #ffffff url("http://localhost/prepworks-wp/img/background-home-why-prepworks.jpg") no-repeat center top;
 	color:#fff;
 	min-height:400px;
-	/*background: #ffffff url("/img/background-home-why-prepworks.jpg") no-repeat center top;*/
+	/*background: #ffffff url("http://localhost/prepworks-wp/img/background-home-why-prepworks.jpg") no-repeat center top;*/
 	background-size:cover;
 	text-align:center;
 	padding-top:20px;
@@ -999,8 +999,8 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #tutoring {
-	background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;
-	/*background: #ffffff url("/img/background-home-inperson.jpg") no-repeat center top;*/
+	background: #ffffff url("http://localhost/prepworks-wp/img/background-home-inperson.jpg") no-repeat center top;
+	/*background: #ffffff url("http://localhost/prepworks-wp/img/background-home-inperson.jpg") no-repeat center top;*/
 	background-size:cover;
 	min-height:185px;
 	color:#fff;
@@ -1768,20 +1768,20 @@ img.aligncenter {
 }
 .site-main .format-image {
 	
-	background: url('/img/content-post-format-image.png') left top no-repeat;
-	/*background: url('../img/content-post-format-image.png') left top no-repeat;*/
+	background: url('http://localhost/prepworks-wp/img/content-post-format-image.png') left top no-repeat;
+	/*background: url('..http://localhost/prepworks-wp/img/content-post-format-image.png') left top no-repeat;*/
 }
 .site-main .format-link {
-	background: url('/img/content-post-format-link.png') left top no-repeat;
-	/*background: url('../img/content-post-format-link.png') left top no-repeat;*/
+	background: url('http://localhost/prepworks-wp/img/content-post-format-link.png') left top no-repeat;
+	/*background: url('..http://localhost/prepworks-wp/img/content-post-format-link.png') left top no-repeat;*/
 }
 .site-main .format-quote {
-	background: url('/img/content-post-format-quote.png') left top no-repeat;
-/*	background: url('../img/content-post-format-quote.png') left top no-repeat;*/
+	background: url('http://localhost/prepworks-wp/img/content-post-format-quote.png') left top no-repeat;
+/*	background: url('..http://localhost/prepworks-wp/img/content-post-format-quote.png') left top no-repeat;*/
 }
 .site-main .format-video {
-	background: url('/img/content-post-format-video.png') left top no-repeat;
-	/*background: url('../img/content-post-format-video.png') left top no-repeat;*/
+	background: url('http://localhost/prepworks-wp/img/content-post-format-video.png') left top no-repeat;
+	/*background: url('..http://localhost/prepworks-wp/img/content-post-format-video.png') left top no-repeat;*/
 }
 
 
