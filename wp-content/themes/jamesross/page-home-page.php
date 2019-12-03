@@ -14,7 +14,8 @@ get_header();
 <script>
 jQuery(document).ready(function() {
     var text = jQuery("div#whyprepworks h3:first strong").html();        
-    jQuery("div#whyprepworks h3:first strong").html("<a href='https://prepworks.com/why-prepworks-2/' style='color:#283848;'>"+text+"</a>");
+    // previous a color : 283848
+    jQuery("div#whyprepworks h3:first strong").html("<a href='https://prepworks.com/why-prepworks-2/' style='color:#fff;'>"+text+"</a>");
     jQuery("div#whyprepworks h3:first").removeAttr("style");	
     jQuery("div#whyprepworks h3:first").attr("style", "font-size:28px");
     jQuery("div#whyprepworks h3:first").css("margin-bottom", "4%");
@@ -42,7 +43,7 @@ jQuery(document).ready(function() {
                        <?php $x = 0; ?> 
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                             <div class="item <?php if($x == 0) echo "active"; ?>">
-                                <a href="https://prepworks.com" target="_blank">
+                                <a href="<?php echo get_field('learn_more_link'); ?>" target="_blank">
                               <?php the_post_thumbnail('full'); ?>
 <!--                              <div class="carousel-caption">
                               	   <p class="hero-title" style="color:<?php echo get_field('text_color'); ?>;<?php if(get_field('text_color') == "#fff") echo "text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.92);";?>"><?php echo get_the_title(); ?></p> 	
