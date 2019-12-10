@@ -869,6 +869,12 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 /*** Added By Fulcrum Team 11-11-2019 ***/
+
+.why-prepworks-section {
+	padding : 30px;
+	background-size : centre !important;
+}
+
 #footer-connect-with-us , #footer-right{
     padding: 25px 135px 20px;
 }
@@ -1340,7 +1346,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 
 #page-tabs {
 	list-style-type:none;
-	padding-left:0;
+	padding-left:8%;
 	min-height:55px;
 	max-width:670px;
 	display:block;
@@ -3371,7 +3377,7 @@ body.page-id-63 .site-main #first-item {padding-top:0;margin-left:40px}
 body.page-id-63 .btn.btn-primary.btn-lg:hover, .button-area .btn.btn-primary.btn-lg:hover, footer .btn.btn-primary.btn-lg:hover {background-color:#204d74}
 body.page-id-347 #first-item-content-vpi {padding-bottom:0px}
 body.page-id-559 #first-item-content-vpi {padding-top:30px}
-body.page-id-347 #first-item {padding:30px 30px 0}
+body.page-id-347 #first-item { padding:30px 30px 0;background-position:center !important;background-size: cover !important; }
 body.page-id-347 #page-topper h1 {color:#000;}
 #first-item-content-vpi a {color:#2B3B4B}
 

@@ -15,7 +15,7 @@ get_header();
 jQuery(document).ready(function() {
     var text = jQuery("div#whyprepworks h3:first strong").html();        
     // previous a color : 283848
-    jQuery("div#whyprepworks h3:first strong").html("<a href='https://prepworks.com/why-prepworks-2/' style='color:#fff;'>"+text+"</a>");
+    jQuery("div#whyprepworks h3:first strong").html("<a href='https://dev.prepworks.com/why-prepworks-2/' style='color:#fff;'>"+text+"</a>");
     jQuery("div#whyprepworks h3:first").removeAttr("style");	
     jQuery("div#whyprepworks h3:first").attr("style", "font-size:28px");
     jQuery("div#whyprepworks h3:first").css("margin-bottom", "4%");
