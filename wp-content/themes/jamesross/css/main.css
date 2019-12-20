@@ -946,6 +946,20 @@ footer a:hover {color:#fff; text-decoration:underline;}
     font-size: 20px;  
 }
 
+@media (max-width:767px){
+	.more-info-btn { 
+		padding-left:0 
+	}
+
+	#footer-connect-with-us, #footer-right {
+		padding : 25px;
+	}
+        
+         #footer-connect-with-us h2, #footer-right h2 {
+		font-size:30px;
+	} 	
+}
+
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
 @media (max-width: 635px) {
