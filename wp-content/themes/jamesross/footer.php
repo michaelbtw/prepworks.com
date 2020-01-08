@@ -164,7 +164,7 @@
     	<div class="container">
         	<div class="row">
                 <div style="clear:both;" class="hidden-sm hidden-md hidden-lg"></div>
-                <div class="col-md-3 col-sm-6 footercopy">
+<!--                <div class="col-md-3 col-sm-6 footercopy">
                 	<p class="footer-header">QUICK LINKS</p>
 					<?php
     
@@ -189,8 +189,8 @@
                     wp_nav_menu( $defaults );
                     
                     ?>
-                </div>
-                <div class="col-md-3 col-sm-6 footercopy">
+                </div>-->
+<!--                <div class="col-md-3 col-sm-6 footercopy">
                 	<p class="footer-header">SUPPORT</p>
 					<?php
     
@@ -215,19 +215,66 @@
                     wp_nav_menu( $defaults );
                     
                     ?>
-                </div>
+                </div>-->
                 
                 <div style="clear:both;" class="hidden-md hidden-lg"></div>
-                
-                <div class="col-md-3 col-sm-6 footercopy">
+                <div class="col-md-6 col-xs-12 col-sm-12" id="footer-connect-with-us">
+          <h2>Connect With Us</h2>
+          <ul class="footer-content social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/Prepworks/">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true"> </i>
+                            </a>
+                        </li><li>
+                            <a href="https://twitter.com/prepworks" target="_blank">
+                                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/prepworks/about/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li>
+
+                    </ul>
+          <ul class="footer-links">
+                        <li><a href="https://ecslearn.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+                        <li><a target="_blank" href="https://ecslearn.com/terms-of-use/">Terms of Use &amp; Copyright</a></li>
+                        <li><a target="_blank" href="https://prepworks.com//frequently-asked-questions-2-2/prepworks-score-guarantee-schools-districts/">Score Guarantee</a></li>
+                        <li><a href="https://staarmaster.ecslearn.com/index.php/join-mailing-list/" target="_blank">Join Mailing List</a></li>
+                        <li><a href="http://dev.prepworks.com/contact-us-2/" target="_blank">Request A Quote</a></li>
+           </ul>
+        </div>
+        <div class="col-md-6 col-xs-12 col-sm-12" id="footer-right">
+            <h2>Prepworks</h2>
+            
+            <div  id="footer-phone">
+                <ul class="footer-content footer-links social-icons">
+                <li><a href="tel:1.855.913.1178" target="_self" tabindex="-1" aria-labelledby="fl-icon-text-5da82be292faa">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+              </a></li>
+              <li><a href="tel:1.855.913.1178" target="_self" tabindex="-1" aria-labelledby="fl-icon-text-5da82be292faa">
+                        <p>1.855.913.1178</p>
+              </a></li>
+              </ul>
+                <ul class="footer-content footer-links social-icons" style="padding-top:0;">
+                <li><a href="mailto:customercare@ecslearn.com" target="_self" >
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>					</a></li>
+              <li><a href="mailto:customercare@ecslearn.com" target="_self" >
+                      <p>  customercare@ecslearn.com	</p>					</a></li>
+              </ul>
+              </div>
+        </div>
+      
+        <div class="copyright-info col-md-12">
+          <p><i class="fa fa-copyright" aria-hidden="true"></i>  2019 Copyright Prepworks, LLC. All Rights Reserved.
+          </p>
+        </div>
+<!--                <div class="col-md-3 col-sm-6 footercopy">
                 	<p class="footer-header">SCHEDULE A DEMO</p>
                   <p class="tour">Get your personalized tour <br> of PREPWORKS today</p>
                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                     SCHEDULE DEMO
                   </button>
-                </div>
+                </div>-->
                 
-                <div class="col-md-3 col-sm-6 footercopy">
+<!--                <div class="col-md-3 col-sm-6 footercopy">
                 	<p class="footer-header">KEY BISCAYNE</p>
                    <p>604 Crandon Boulevard, Suite 201<br>Key Biscayne, Florida 33149</p>
                     <p><a href="tel:8553657737">855-365-PREP</a></p>
@@ -236,7 +283,7 @@
                    <p class="footer-header">MIAMI</p>
                    <p>3439 Main Highway, Suite A<br>Miami, Florida 33133</p>
                    <p><a href="mailto:info@myprepworks.com">info@prepworks.com</a></p>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -246,24 +293,24 @@
         	<div class="row">                
                 <div class="col-md-9 col-sm-9 disclaimer" >
                 	<img src="<?php echo get_template_directory_uri(); ?>/img/icon-wbenc.png" alt="Certified WBENC" class="wbenc">
-                	APÂ®, Advanced Placement ProgramÂ® or Pre-APÂ® is a registered trademark of the College Board, which was not involved in the production of, and does not endorse, this product. SATÂ® is a trademark registered and/or owned by the College Board, which was not involved in the production of, and does not endorse, this product. ACTÂ® is a registered trademark of ACT, Inc. PSAT/NMSQTÂ® is a registered trademark of the College Board and the National Merit Scholarship Corporation which were not involved in the production of, and do not endorse, this product. SSATÂ®/SSATB is a registered trademark of the College Board, which was not involved in the production of, and does not endorse, this product. ISEE/ERB is a registered trademark of ISEEÂ®/ERB, Inc. HSPTÂ® is a trademark jointly owned by the College Board and the National Merit Scholarship Corporation, which were not involved in the production of, and do not endorse, this product. None of the trademark holders are affiliated with PREPWORKSÂ®.
+                	AP®, Advanced Placement Program® or Pre-AP® is a registered trademark of the College Board, which was not involved in the production of, and does not endorse, this product. SAT® is a trademark registered and/or owned by the College Board, which was not involved in the production of, and does not endorse, this product. ACT® is a registered trademark of ACT, Inc. PSAT/NMSQT® is a registered trademark of the College Board and the National Merit Scholarship Corporation which were not involved in the production of, and do not endorse, this product. SSAT®/SSATB is a registered trademark of the College Board, which was not involved in the production of, and does not endorse, this product. ISEE/ERB is a registered trademark of ISEE®/ERB, Inc. HSPT® is a trademark jointly owned by the College Board and the National Merit Scholarship Corporation, which were not involved in the production of, and do not endorse, this product. None of the trademark holders are affiliated with PREPWORKS®.
                 </div>
 
                 <div class="col-md-3 col-sm-3">
                 	<?php get_search_form(); ?>
-                  <ul id="footer-social-media">
+<!--                  <ul id="footer-social-media">
                     <li><a href="https://www.facebook.com/Prepworks/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-facebook.png" alt="PREPWORKS on Facebook"></a></li>
                       <li><a href="https://www.youtube.com/channel/UCb9MT72MBRIPJeDwhK6knlA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-youtube.png" alt="PREPWORKS on YouTube"></a></li>
                       <li><a href="https://twitter.com/prepworks" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-twitter.png" alt="PREPWORKS on Twitter"></a></li>
                       <li><a href="mailto:info@myprepworks.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-email.png" alt="Email PREPWORKS"></a></li>  
-                   </ul> 
+                   </ul> -->
                 </div>
                 
 
-            	<div class="col-md-12 col-sm-12 copyright">
+<!--            	<div class="col-md-12 col-sm-12 copyright">
                 	<span>&copy; <?php date_default_timezone_set('UTC'); echo date("Y"); ?> Copyright Prepworks, LLC. All Rights Reserved.
                   </span>
-                </div>
+                </div>-->
                 
             </div>
         </div>

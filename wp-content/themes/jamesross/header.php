@@ -102,11 +102,14 @@ jQuery(function(){
         
         ?>
 
-        <script>
+	<script>
         jQuery( document ).ready(function() {
         	jQuery('#menu-item-2359 span').remove();	
+		var phoneNumber = jQuery("ul#menu-secondary-menu li:first a").html();        
+                jQuery("ul#menu-secondary-menu li:first a").html("<i class='fa fa-phone fa-rotate-90' aria-hidden='true' style='position:relative;left:-7px;'></i>" +phoneNumber);
         });					
-        </script>
+        </script>        
+
 		
 	</div>
 	<div class="col-md-7 col-sm-7 site-title">
@@ -138,8 +141,8 @@ jQuery(function(){
                 <div class="navbar-header">
                 	<div class="row hidden-sm hidden-md hidden-lg">
                    	<div class="col-xs-9">
-                	 		<a class="mobPrepworks" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile-logo.png" alt="PREPWORKS"></a>
-						<a class="mobTestSmart" href="<?php echo get_page_link(22); ?>" title="Test Smart" rel="Test Smart"><img src="https://prepworks.com/efs//2019/04/TSLearningCentreLogo-1.png" alt="Test Smart"></a>						
+                	 		<a class="mobPrepworks" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile-logo.png" alt="PREPWORKS" class="img-responsive"></a>
+					<!---<a class="mobTestSmart" href="<?php echo get_page_link(22); ?>" title="Test Smart" rel="Test Smart"><img src="https://prepworks.com/efs//2019/04/TSLearningCentreLogo-1.png" alt="Test Smart"></a>-->
                      	</div>
                       <div class="col-xs-3">  
                       	  	
