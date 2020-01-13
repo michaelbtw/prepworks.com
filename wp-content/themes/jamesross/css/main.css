@@ -1013,6 +1013,27 @@ body.page-id-347 #page-topper h1 {color: #fff !important;}
 body.page-id-69 .page-icon, body.blog .page-icon { display: none; }
 body.page-id-69 h1 { margin-top: 5%; }
 
+div#accordion-2 h3.ui-accordion-header {
+    color: #283848;
+    border: 2px solid #f2f2f2;
+    font-size: 18px;
+    font-family: inherit;
+    margin-bottom : 15px;
+}
+
+div.ui-accordion-content {
+    display: block;
+    background: #fff;
+    color: #787878;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+p#ui-accordion-accordion-2-header-7 { display:none; }
+
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
 @media (max-width: 635px) {
