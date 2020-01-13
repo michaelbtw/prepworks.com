@@ -1,0 +1,13 @@
+Website URL : http://dev.prepworks.com/  (Dev),  https://prepworks.com (Production)
+
+1. git clone https://github.com/michaelbtw/prepworks.com.git
+2. copy wp-config.php file and edit DB credentials, db files
+3. copy following folders as they are not maintained in github repository
+
+cp -a /var/www/html/cgi-bin  /var/www/prepworks.com/
+cp -a /var/www/html/efs      /var/www/prepworks.com/
+cp -a /var/www/html/gedprepworks.com      /var/www/prepworks.com/
+cp -a /var/www/html/prepworks.com      /var/www/prepworks.com/
+cp -a /var/www/html/wp-content/plugins/      /var/www/prepworks.com/wp-content/
+cp -a /var/www/html/wp-content/uploads/      /var/www/prepworks.com/wp-content/ 
+4. Add virtual host entry depending on server you are using. 

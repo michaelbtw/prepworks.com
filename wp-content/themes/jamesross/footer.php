@@ -238,7 +238,7 @@
                         <li><a target="_blank" href="https://ecslearn.com/terms-of-use/">Terms of Use &amp; Copyright</a></li>
                         <li><a target="_blank" href="https://prepworks.com//frequently-asked-questions-2-2/prepworks-score-guarantee-schools-districts/">Score Guarantee</a></li>
                         <li><a href="https://staarmaster.ecslearn.com/index.php/join-mailing-list/" target="_blank">Join Mailing List</a></li>
-                        <li><a href="http://prepworks.com/contact-us-2/" target="_blank">Request A Quote</a></li>
+                        <li><a href="http://dev.prepworks.com/contact-us-2/" target="_blank">Request A Quote</a></li>
            </ul>
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12" id="footer-right">

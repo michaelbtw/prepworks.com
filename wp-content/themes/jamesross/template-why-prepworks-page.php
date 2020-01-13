@@ -53,8 +53,8 @@ get_header('act-sat');
 
     		<main id="main" class="site-main" role="main">
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    		<div id="first-item" style="background: url(<?php echo $image2['url']; ?>) no-repeat left top;background-size: cover;">
-		           
+    		<!--<div id="first-item" style="background: url(<?php echo $image2['url']; ?>) no-repeat left top;background-size: cover;">-->
+		    <div class="why-prepworks-section" style="background: url(<?php echo $image2['url']; ?>) no-repeat left top;background-size: cover;">       
 		           <div class="container">
 				   <div class="row">
 		        	<div class="col-md-12"> 
@@ -98,7 +98,7 @@ get_header('act-sat');
 		if (jQuery(window).width() < ((<?php echo $ficwidth; ?> * 2) + 300)) {
                 jQuery('#first-item').css('background', 'url(<?php echo $image3['url']; ?>) no-repeat left top');
 				jQuery('#first-item-content-vpi').css('float', 'none');
-				jQuery('#first-item-content-vpi').css('margin', '0 auto');
+				jQuery('#first-item-content-vpi').css('margin', '0 30%');
 				jQuery('#first-item-content-vpi').css('padding-right', '0');
 				if (jQuery(window).width() < 500) {
 					jQuery('#first-item').css('background', 'none');
