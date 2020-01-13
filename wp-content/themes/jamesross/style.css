@@ -145,3 +145,10 @@ img.wbenc {
 #search-wrapper {
     margin: 20px 0;
 }
+
+/*** Added by Fulcrum ***/
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 280px; padding: 3% 5% 4% 5%; border: #2px solid #d3d3d3; border: 2px solid #d3d3d3; }
+.woocommerce ul.products li.product h3 { font-size: 16px; color: #283848; margin-left: -11px;}
+.woocommerce-page .page-icon { display:none; }
+

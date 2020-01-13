@@ -15,7 +15,7 @@ get_header();
 jQuery(document).ready(function() {
     var text = jQuery("div#whyprepworks h3:first strong").html();        
     // previous a color : 283848
-    jQuery("div#whyprepworks h3:first strong").html("<a href='https://dev.prepworks.com/why-prepworks-2/' style='color:#fff;'>"+text+"</a>");
+    jQuery("div#whyprepworks h3:first strong").html("<a href='https://dev.prepworks.com/why-prepworks-2/' style='color:#283848;'>"+text+"</a>");
     jQuery("div#whyprepworks h3:first").removeAttr("style");	
     jQuery("div#whyprepworks h3:first").attr("style", "font-size:28px");
     jQuery("div#whyprepworks h3:first").css("margin-bottom", "4%");
@@ -106,8 +106,8 @@ jQuery(document).ready(function() {
           		
                 	<div class="course-group">
                     <div id="prep-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-test-prep.png" alt="Test Prep"></div>
-                        <p class="cg-title">PSAT, SAT, & ACT</p>
-                       <p><?php echo get_field('test_prep_copy'); ?></p>
+                        <p class="cg-title margin-bottom">PSAT, SAT, & ACT</p>
+                        <p class="text-color"><?php echo get_field('test_prep_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/test-preparation/" role="button">LEARN MORE</a>
 						<?php } ?>
@@ -117,8 +117,8 @@ jQuery(document).ready(function() {
                
                 	<div class="course-group">
                     <div id="math-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-math.png" alt="Math"></div>
-                        <p class="cg-title">Math</p>
-                       <p><?php echo get_field('math_copy'); ?></p>
+                        <p class="cg-title margin-bottom">Math</p>
+                       <p class="text-color"><?php echo get_field('math_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
 <!--                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/math/" role="button">LEARN MORE</a> -->
 						<?php } ?>
@@ -128,8 +128,8 @@ jQuery(document).ready(function() {
                 
                 	<div class="course-group">
                     <div id="science-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-science.png" alt="Science"></div>
-                        <p class="cg-title">Science</p>
-                       <p><?php echo get_field('science_copy'); ?></p>
+                        <p class="cg-title margin-bottom">Science</p>
+                       <p class="text-color"><?php echo get_field('science_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
 <!--                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/science/" role="button">LEARN MORE</a>  -->
 						<?php } ?>
@@ -139,8 +139,8 @@ jQuery(document).ready(function() {
                 
                 	<div class="course-group dangler">
                     <div id="civics-icon" class="group-icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-civics.png" alt="Civics & History"></div>
-                        <p class="cg-title">Civics & History</p>
-                       <p><?php echo get_field('civic_copy'); ?></p>
+                        <p class="cg-title margin-bottom">Civics & History</p>
+                       <p class="text-color"><?php echo get_field('civic_copy'); ?></p>
 						<?php if (!is_front_page()) { ?>
 <!--                        		<a class="btn btn-primary btn-lg course-btn" href="<?php echo get_site_url(); ?>/our-courses/civics-history/" role="button">LEARN MORE</a>  -->
 						<?php } ?>

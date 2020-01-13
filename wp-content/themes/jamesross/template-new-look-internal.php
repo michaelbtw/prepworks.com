@@ -105,8 +105,9 @@ $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
                     jQuery(document).ready(function () {
 
                         jQuery('#first-item').css('backgroundSize', 'cover');
-
-
+                        jQuery('#first-item-content-vpi').css('padding-left', '7%');
+                        jQuery("span#features" ).next().css( "background-color", "#f5f5f5" );
+                        
                         if (jQuery(window).width() < (<?php echo $ficwidth; ?> + 20)) {
                             jQuery('#first-item-content-vpi').css('width', '100%');
                         } else {
@@ -126,8 +127,6 @@ $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
                             jQuery('#first-item').css('background', 'url(<?php echo $image2['url']; ?>) no-repeat left top');
 
                         }
-
-
                     });
 
                     jQuery(window).on('resize', function () {

@@ -49,7 +49,7 @@
 								<?php endwhile; wp_reset_query();?>  
                         </div>
                     </div> 
-                   <a class="btn btn-primary btn-lg" rel="m_PageScroll2id" href="<?php echo get_site_url(); ?>/testimonials/<?php echo $tag; ?>" role="button">VIEW MORE</a> 
+                   <a class="btn btn-primary btn-lg" rel="m_PageScroll2id" href="<?php echo get_site_url(); ?>/testimonials/<?php echo $tag; ?>" role="button">View More</a> 
                 </div>
             </div>
         </div>
@@ -242,7 +242,7 @@
            </ul>
         </div>
         <div class="col-md-6 col-xs-12 col-sm-12" id="footer-right">
-            <h2>Prepworks</h2>
+            <h2>PREPWORKS</h2>
             
             <div  id="footer-phone">
                 <ul class="footer-content footer-links social-icons">
