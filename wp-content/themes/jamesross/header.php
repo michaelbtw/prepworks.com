@@ -116,6 +116,7 @@
 
                                 /**** FAQ page code ****/
                                 jQuery( "#accordion-2" ).accordion({
+                                   heightStyle: "content",
                                    collapsible: true
                                 });
                             });
