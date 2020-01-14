@@ -52,113 +52,34 @@ $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
 
 <main id="main" class="site-main" role="main">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div id="first-item" style="background: url(<?php echo $image2['url']; ?>) no-repeat left top;background-size: cover;">
+        
+        <div class="why_prepworks_first_section">
+            <div class="container">
+                <div class="row">
 
-            <?php
-// Added by MS 10/16/2018 to remove buttons from students/parents page because they don't link anywhere.
-            if (is_page('for-parents-students') || is_page('for-schools-districts-2')): //Identify page by slug
-                //Do nothing
-                ?>
-
-            <?php elseif (!is_page(2869)) : ?>     
-                <ul id="page-tabs" class="page-tabs-why-override">
-                    <li><a href="#results" rel="m_PageScroll2id">RESULTS GUARANTEED</a></li>
-                    <li><a href="#features" rel="m_PageScroll2id">FEATURES</a></li>
-                    <li><a href="#design" rel="m_PageScroll2id">DESIGN MY PROGRAM</a></li>
-                </ul>
-            <?php endif; ?>
-            <div style="clear:both;"></div>
-            <?php
-            while (have_posts()) {
-                the_post();
-                $ficwidth = get_field('first_section_copy_area_width');
-                if ($ficwidth == "")
-                    $ficwidth = "775";
-                ?>
-
-
-                <?php if (!is_page(2869)) : ?> 
-                    <div id="first-item-content-vpi">
-                        <?php the_content(); ?> 
+                    <div class="why_prepworks_bg_left col-md-5 col-xs-12">
+                        <div style="background: url(<?php echo $image2['url']; ?>) no-repeat left top; background-size: cover; width: 100%; min-height: 350px;"></div>
                     </div>
+
                     <?php
-                else :
-                    echo "<h2 style=\"text-align:center;\">Prepworks is proud to partner with schools and organizations across the globe:</h2><br>";
-                    $thelist = get_the_content();
-                    //$p_array = explode("\n", $thelist);
-                    $p_array = preg_split("/\r\n|\n|\r/", $thelist);
+                    while (have_posts()) {
+                        the_post();
+                        $ficwidth = get_field('first_section_copy_area_width');
+                        if ($ficwidth == "")
+                            $ficwidth = "775";
+                        ?>    
 
-                    foreach ($p_array as $p) {
-                        if (strlen($p) > "1")
-                            echo '<div class="col-md-4 col-sm-6 partner-list">' . $p . '</div>';
-                    }
-
-
-                endif;
-                ?> 
-
-
-
-
-                <div style="clear:both;"></div>
-                <script>
-                    jQuery(document).ready(function () {
-
-                        jQuery('#first-item').css('backgroundSize', 'cover');
-                        jQuery('#first-item-content-vpi').css('padding-left', '7%');
-                        jQuery("span#features" ).next().css( "background-color", "#f5f5f5" );
-                        
-                        if (jQuery(window).width() < (<?php echo $ficwidth; ?> + 20)) {
-                            jQuery('#first-item-content-vpi').css('width', '100%');
-                        } else {
-                            jQuery('#first-item-content-vpi').css('width', '<?php echo $ficwidth; ?>px');
-                        }
-
-                        if (jQuery(window).width() < ((<?php echo $ficwidth; ?> * 2) - 450)) {
-                            jQuery('#first-item').css('background', 'url(<?php echo $image3['url']; ?>) no-repeat left top');
-                            jQuery('#first-item-content-vpi').css('float', 'none');
-                            jQuery('#first-item-content-vpi').css('margin', '0 auto');
-                            jQuery('#first-item-content-vpi').css('padding-right', '0');
-                            if (jQuery(window).width() < 500) {
-                                jQuery('#first-item').css('background', 'none');
-                                jQuery('#first-item').css('background-color', '<?php echo get_field('first_section_background_color'); ?>');
-                            }
-                        } else {
-                            jQuery('#first-item').css('background', 'url(<?php echo $image2['url']; ?>) no-repeat left top');
-
-                        }
-                    });
-
-                    jQuery(window).on('resize', function () {
-
-
-                        if (jQuery(window).width() < (<?php echo $ficwidth; ?> + 20)) {
-                            jQuery('#first-item-content-vpi').css('width', '100%');
-                        } else {
-                            jQuery('#first-item-content-vpi').css('width', '<?php echo $ficwidth; ?>px');
-                        }
-
-                        if (jQuery(window).width() < ((<?php echo $ficwidth; ?> * 2) - 450)) {
-                            jQuery('#first-item').css('background', 'url(<?php echo $image3['url']; ?>) no-repeat left top');
-                            jQuery('#first-item-content-vpi').css('float', 'none');
-                            jQuery('#first-item-content-vpi').css('margin', '0 auto');
-                            jQuery('#first-item-content-vpi').css('padding-right', '0');
-                            if (jQuery(window).width() < 500) {
-                                jQuery('#first-item').css('background', 'none');
-                                jQuery('#first-item').css('background-color', '<?php echo get_field('first_section_background_color'); ?>');
-                            }
-                        } else {
-                            jQuery('#first-item').css('background', 'url(<?php echo $image2['url']; ?>) no-repeat left top');
-                            jQuery('#first-item-content-vpi').css('float', 'right');
-                            jQuery('#first-item-content-vpi').css('margin', 'none');
-                            jQuery('#first-item-content-vpi').css('padding-right', '160px');
-
-                        }
-                    });
-                </script> 
-
-
-            </div>  
+                        <div class="why_prepworks_bg_right col-md-7 col-xs-12">
+                            <div id="first-item-content-vpi" style="padding-top:0px;padding-right: 0px;">
+                                <?php the_content(); ?> 
+                            </div>
+                        </div>    
+                    </div>
+                </div>            
+            </div>
+        
+        
+          
             <!--END FIRST SECTION-->
 
             <!--REPEATABLE SECTIONS-->
