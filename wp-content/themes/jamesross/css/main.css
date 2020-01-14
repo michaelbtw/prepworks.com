@@ -1010,7 +1010,7 @@ body.page-id-347 #page-topper h1 {color: #fff !important;}
 .press h2 { font-size:18px; color: #787878; }
 .press p { color: #787878; }
 
-body.page-id-69 .page-icon, body.blog .page-icon { display: none; }
+body.page-id-69 .page-icon, body.blog .page-icon, body.page-id-559 .page-icon { display: none; }
 body.page-id-69 h1 { margin-top: 5%; }
 
 div#accordion-2 h3.ui-accordion-header {
@@ -1033,6 +1033,17 @@ div.ui-accordion-content {
 }
 
 p#ui-accordion-accordion-2-header-7 { display:none; }
+body.page-id-559 div#page-topper h1 { margin-top: 4%; }
+.why_prepworks_first_section { margin-top : 35px; }
+body.page-id-559 ul#page-tabs { padding-left: 0px; }
+body.page-id-559 .anchor { height: 170px; }
+body.page-id-559 ul#page-tabs li { background-color: #e05504; padding: 15px 20px; margin-right: 20px; }
+body.page-id-559 div.award p, div.your_best_score p, div.why_prepworks_first_section p { color: #787878; }
+div.your_best_score h4, div.award h1 { color:#283848; }
+div.your_best_score li { color:#787878; }
+div.award h1 { font-size:32px; margin-bottom: 20px;}
+
+
 
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
@@ -2685,8 +2696,10 @@ p.usd {
 }
 
 .page-id-559  h2 {
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #283848;
 }
 
 .arconix-faq-content ul, .arconix-faq-content ol {
