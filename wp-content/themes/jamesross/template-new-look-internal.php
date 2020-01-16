@@ -78,7 +78,11 @@ $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
                 </div>            
             </div>
         
-        
+            <script>
+                    jQuery(document).ready(function () {
+                        jQuery("span#features" ).next().css( "background-color", "#f5f5f5" );
+                    });
+                </script>
           
             <!--END FIRST SECTION-->
 
