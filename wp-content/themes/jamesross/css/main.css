@@ -718,7 +718,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
     min-height:250px;
     color:#fff;
     font-size:13px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; padding:25px
 }
 @media (max-width: 1000px) {
     #footer-info {
@@ -883,7 +883,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #footer-connect-with-us h2, #footer-right h2{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     color: #283848;
     margin-bottom:0;
@@ -911,7 +911,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
 .footer-links li a{
     padding: 5px 0 10px;
     color: #787878;
-    font-size: 16px;
+    font-size: 14px;
 }
 .footer-header{
     font-size: 15px;
@@ -921,7 +921,6 @@ footer a:hover {color:#fff; text-decoration:underline;}
 .copyright-info{
     text-align: center;
     font-size: 15px;
-    padding: 25px;
     color:#787878;
 }
 /** Prepworks program page **/
@@ -962,7 +961,7 @@ footer a:hover {color:#fff; text-decoration:underline;}
     }
 
     #footer-connect-with-us h2, #footer-right h2 {
-        font-size:30px;
+        font-size:22px;
     } 	
 }
 
@@ -1060,6 +1059,9 @@ body.page-id-3811 .ui-accordion .ui-accordion-icons {padding-left:1.2em}
 .carousel-indicators li.active {margin:10px!important; width:10px; height:10px!important}
 #our-partners .carousel-indicators {bottom:-8%!important}
 .carousel-inner {min-height: 200px}
+#footer-connect-with-us .footer-links li {margin-bottom:5px}
+#footer-right {padding-left: 0}
+
 
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
