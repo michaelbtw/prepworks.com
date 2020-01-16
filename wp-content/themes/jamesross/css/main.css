@@ -1063,6 +1063,10 @@ body.page-id-3811 .ui-accordion .ui-accordion-icons {padding-left:1.2em}
 #footer-right {padding-left: 0}
 
 
+@media (min-width:320px) and (max-width:1023px) {
+    .privateInstructDiv h2 {margin-top:20px;}    
+    .why_prepworks_first_section #first-item-content-vpi ol li {margin-bottom: 15px;width: 90%; max-width:inherit; margin:0 auto 15px!important;}
+}
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
 @media (max-width: 635px) {
@@ -2079,8 +2083,8 @@ img.aligncenter {
     position: relative;
     left: 10px;
     top: 3px;
-    width: 100%
-        overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 }
 ul.newsticker { /* that's your list */
     position: relative;
