@@ -879,14 +879,14 @@ footer a:hover {color:#fff; text-decoration:underline;}
 }
 
 #footer-connect-with-us , #footer-right{
-    padding: 3% 135px 20px;
+    padding: 0 135px 20px;
 }
 
 #footer-connect-with-us h2, #footer-right h2{
     font-size: 30px;
     font-weight: bold;
     color: #283848;
-    margin-bottom: 15px;
+    margin-bottom:0;
 }
 
 .social-icons{
@@ -1043,7 +1043,23 @@ div.your_best_score h4, div.award h1 { color:#283848; }
 div.your_best_score li { color:#787878; }
 div.award h1 { font-size:32px; margin-bottom: 20px;}
 body.page-id-347 div.last-vt img.img-last-vt { max-width: 400px; margin: 10%}
+body.page-id-60 div#page-topper,  body.page-id-347 div#page-topper {background-size: cover!important}
 
+
+.why_prepworks_first_section #first-item-content-vpi h3 {text-align: center; color: #283848}
+.why_prepworks_first_section #first-item-content-vpi ol {text-align: center}
+.why_prepworks_first_section #first-item-content-vpi ol li {display:inline-block; max-width:40%; vertical-align: top; background:#f2f2f2; padding:15px; min-height: 130px} 
+.page-id-159 .looper.xfade .looper-inner {min-height: 125px!important}
+body.page-id-3811 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {right:.5em!important; left:auto!important; transform:rotate(90deg)}
+body.page-id-3811 .ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-accordion-header-icon {transform:rotate(180deg)}
+body.page-id-3811 .ui-accordion-header, body.page-id-3811 .ui-accordion-header.ui-state-hover {background: #f6f6f6!important}
+body.page-id-3811 .ui-accordion .ui-accordion-icons {padding-left:1.2em}
+.footer-content li {margin-top:0!important; margin-bottom:0!important;}
+
+.carousel-indicators li {margin:10px}
+.carousel-indicators li.active {margin:10px!important; width:10px; height:10px!important}
+#our-partners .carousel-indicators {bottom:-8%!important}
+.carousel-inner {min-height: 200px}
 
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
@@ -1754,7 +1770,7 @@ nav.woocommerce-breadcrumb {
 }
 
 .page-id-559 .award {
-    background-position: 33% 50% !important;
+    background-position: 33% 50% !important; clear: both
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
@@ -2708,7 +2724,7 @@ p.usd {
 
 .bigger {
     max-width: 321px !important;
-    margin: 35px auto 0 !important;
+    margin: 25px auto 0 !important;
 }
 
 .smaller{
