@@ -1066,6 +1066,30 @@ body.page-id-3811 .ui-accordion .ui-accordion-icons {padding-left:1.2em}
 @media (min-width:320px) and (max-width:1023px) {
     .privateInstructDiv h2 {margin-top:20px;}    
     .why_prepworks_first_section #first-item-content-vpi ol li {margin-bottom: 15px;width: 90%; max-width:inherit; margin:0 auto 15px!important;}
+	
+body.page-id-63 #page-topper-main {height: 160px!important; min-height:auto!important;	margin:0; padding-bottom:0; height:auto}
+body.page-id-63 .why_prepworks_first_section {margin:15px}
+body.page-id-63  .why_prepworks_first_section .why_prepworks_bg_left {margin-bottom:15px}
+.page-id-63 .col-md-12.new-padding p {margin-bottom:20px}
+.page-id-63 .looper.xfade .looper-inner, .page-id-347 .looper.xfade .looper-inner, .page-id-559 .looper.xfade .looper-inner {min-height:210px}
+.page-id-63 .more-info-btn .col-md-6.button-area {padding:10px!important}
+.page-id-63 .more-info-btn {padding:0 0 20px 0}
+.page-id-63 .why_prepworks_first_section #first-item-content-vpi {padding-top:0px!important}
+
+/*page - http://dev.prepworks.com/virtual-tutoring-2/  */
+body.page-id-347 .last-vt  .col-sm-4.col-md-6 p img {margin:0; padding-top:20px}
+
+
+/*page - http://dev.prepworks.com/why-prepworks-2/  */
+
+body.page-id-559 .your_best_score {text-align:center}
+body.page-id-559 .your_best_score  .leftColumn {border-right:1px solid gray!important; margin-bottom:20px}
+body.page-id-559 .your_best_score .buttonSet , body.page-id-559 .your_best_score  .columnBox {margin:0!important}
+body.page-id-559 .your_best_score  .leftColumn, body.page-id-559 .your_best_score  .rightColumn {float:none; text-align:left; width:100%}
+body.page-id-559 span#awards, body.page-id-559 span#tech {display:none}
+body.page-id-559 .award {padding-bottom:0}
+body.page-id-559 .content-last-vt.btn-ltp {padding:0; margin:0}
+
 }
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
