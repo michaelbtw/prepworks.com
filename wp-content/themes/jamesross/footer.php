@@ -263,7 +263,7 @@
         </div>
       
         <div class="copyright-info col-md-12">
-          <p><i class="fa fa-copyright" aria-hidden="true"></i>  2019 Copyright Prepworks, LLC. All Rights Reserved.
+          <p><i class="fa fa-copyright" aria-hidden="true"></i>  2020 Copyright Prepworks, LLC. All Rights Reserved.
           </p>
         </div>
 <!--                <div class="col-md-3 col-sm-6 footercopy">

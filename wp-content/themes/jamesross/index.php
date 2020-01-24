@@ -13,6 +13,11 @@ get_header();
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?>
 
+<style> 
+ h2 {  color: #283848 !important; }
+</style>
+
+
 <div id="page-topper" style="background: #ffffff url(<?php echo get_site_url(); ?>/wp-content/uploads/2015/10/Press-bg.jpg) no-repeat center top; margin-bottom:5px; background-size: cover;">
 
 	<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2015/10/Prepworks_Icon.png" alt="" class="page-icon">

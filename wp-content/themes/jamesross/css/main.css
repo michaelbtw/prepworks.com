@@ -1064,8 +1064,9 @@ body.page-id-3811 .ui-accordion .ui-accordion-icons {padding-left:1.2em}
 
 
 @media (min-width:320px) and (max-width:1023px) {
-    .privateInstructDiv h2 {margin-top:20px;}    
-    .why_prepworks_first_section #first-item-content-vpi ol li {margin-bottom: 15px;width: 90%; max-width:inherit; margin:0 auto 15px!important;}
+   
+.privateInstructDiv h2 {margin-top:20px;}    
+.why_prepworks_first_section #first-item-content-vpi ol li {margin-bottom: 15px;width: 90%; max-width:inherit; margin:0 auto 15px!important;}
 	
 body.page-id-63 #page-topper-main {height: 160px!important; min-height:auto!important;	margin:0; padding-bottom:0; height:auto}
 body.page-id-63 .why_prepworks_first_section {margin:15px}
@@ -1090,7 +1091,21 @@ body.page-id-559 span#awards, body.page-id-559 span#tech {display:none}
 body.page-id-559 .award {padding-bottom:0}
 body.page-id-559 .content-last-vt.btn-ltp {padding:0; margin:0}
 
+/*  page - http://dev.prepworks.com/contact-us-2/ <http://dev.prepworks.com/contact-us-2/>  */
+.page-id-60 .formDiv {padding:auto!important; width:100%!important; margin: auto!important;}
+.page-id-60 .formDiv label {font-size:14px!important}
+/*  Login page */
+.page-id-159 .mobi.hidden-md.hidden-lg .externalloginform1 {width: 100%; box-shadow:none; border:0; border-radius:0;} 
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product  {width:220px!important} 
+body #footer-connect-with-us, #footer-right {padding:0 0 20px!important} 
+
 }
+
+div.prepworks_student_work p,  div.prepworks_student_work ul li { color:#787878; }
+div.prepworks_student_work h3 { color:#283848; }
+div.content-page-widget a { color: #333; background-color: #fff;  border: 1px solid #ccc; padding: 10px;  display: inline-block; margin-top: 10px; }
+div.content-page-widget a:hover { text-decoration : none; } 
+
 /*** Added By Fulcrum Team 11-11-2019 ENDS HERE***/
 
 @media (max-width: 635px) {

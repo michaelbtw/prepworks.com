@@ -189,10 +189,8 @@ get_header();
 
 
 
-
-
                 <div style="clear:both;"></div>
-                <a class="btn btn-primary btn-lg why-btn" href="https://calendly.com/lgomezecs/prepworks-demonstration" role="button" style="margin-top:25px;">Schedule a Demo</a>
+                <a class="btn btn-primary btn-lg why-btn" target="_blank" href="https://calendly.com/lchacon-prepworks" role="button" style="margin-top:25px;">Schedule a Demo</a>
 
 
             </div>
